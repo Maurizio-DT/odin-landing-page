@@ -136,14 +136,19 @@ figure img {
     width: 100%;
 }
 
-.first-section-content button {
+.first-section-content button,
+.blue-little-section button {
     color: #F9FAF8;
     font-size: 16px;
-    width: 100px;
+    width: 110px;
     font-weight: bold;
     padding: 5px 20px;
     border-style: none;
     border-radius: 5px;
+}
+
+.blue-little-section button {
+    border: 1px solid white;
 }
 
 .img-container figure {
@@ -169,4 +174,23 @@ blockquote {
     margin: 20px 0 0 349px;
 }
 
+.blue-little-section {
+    display: flex;
+    width: 50%;
+    margin: 5% auto 5% auto;
+    border-radius: 5px;
+    padding: 2% 5% 2% 5%;
+    justify-content: space-around;
+    color: #F9FAF8;
+}
+
+footer {
+    color: #F9FAF8;
+    padding: 2% 0 2% 0;
+}
+
+footer p {
+    margin: 0 auto;
+    text-align: center;
+}
 /* DEBUG */

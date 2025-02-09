@@ -66,6 +66,7 @@ blockquote {
     text-decoration: none;
 }
 
+
 /* FLEXBOX */
 
 nav {
@@ -92,6 +93,33 @@ nav {
     padding-bottom: 5%;
 }
 
+.random-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+}
+
+.img-container {
+    display: flex;
+    column-gap: 40px;
+}
+
+.first-section-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.thor-quote {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
 
 /* OTHER STYLE */
 .main-navigation {
@@ -108,12 +136,6 @@ figure img {
     width: 100%;
 }
 
-.first-section-content {
-    display: flex;
-    flex-direction: column;
-    row-gap: 15px;
-}
-
 .first-section-content button {
     color: #F9FAF8;
     font-size: 16px;
@@ -122,6 +144,29 @@ figure img {
     padding: 5px 20px;
     border-style: none;
     border-radius: 5px;
+}
+
+.img-container figure {
+    width: 150px;
+    height: 150x;
+}
+
+.img-container figure img {
+    border-radius: 10px;
+}
+
+.random-information h2 {
+    margin-top: 40px;
+}
+
+blockquote {
+    width: 40%;
+    margin-top: 5%;
+}
+
+.thor-quote > p {
+    padding-bottom: 5%;
+    margin: 20px 0 0 349px;
 }
 
 /* DEBUG */
